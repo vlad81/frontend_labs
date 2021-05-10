@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity">
+
+    <Button
+        android:id="@+id/createAcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/login_button_shape"
+        android:fontFamily="@font/droid"
+        android:text="@string/log_in"
+        android:onClick="onLogInClick"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/loginText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/pacifico"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/base_face"
+        android:drawablePadding="10dp"
+        android:text="@string/login"
+        android:drawableStart="@drawable/base_face" />
+
+    <EditText
+        android:id="@+id/passwordText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/pacifico"
+        android:layout_below="@+id/loginText1"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:background="#11000000"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/lock"
+        android:text="@string/password"
+        android:drawableStart="@drawable/lock" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginText1"
+        android:padding="60dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register_now"
+        android:fontFamily="@font/droid"
+        android:layout_below="@+id/createAcButton"
+        android:layout_centerHorizontal="true"
+        android:textSize="11sp"
+        android:background="@drawable/register_button_shape"
+        android:layout_marginTop="9dp"
+        android:onClick="onCreateAccountClick"
+        tools:ignore="SmallSp" />
+
+</RelativeLayout>

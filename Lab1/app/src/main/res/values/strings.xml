@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FrontEndLab1</string><string name="start">Start</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log  in</string>
+    <string name="register_now">Sing in</string>
+    <string name="mail">mail</string>
+    <string name="create_account">Create an account</string>
+    <string name="edit_description">Edit description</string>
+    <string name="user_login">User Login</string>
+    <string name="text">text</string>
+    <string name="profile_description">Profile description</string>
+    <string name="save_description">Save description</string>
+    <string name="not_verified">Account is not verified yet!</string>
+    <string name="push_notifications">Push-notifications</string>
+    <string name="exit">Exit</string>
+    <string name="loading">Loading …</string>
+</resources>

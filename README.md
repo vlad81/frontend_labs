@@ -4,7 +4,7 @@ Boiko Vladyslav
 
 KV-02mp
 
-# Lab 1
+# Lab 3
 
 Create Android application that connected to Lab1 from "Tecnology of creating of Web applications".
 

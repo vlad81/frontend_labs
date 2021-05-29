@@ -5,7 +5,7 @@ Boiko Vladyslav
 KV-02mp
 
 
-# Lab 2
+# Lab 1
 
 Implement frontend part of Web-application.
 
